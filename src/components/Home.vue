@@ -1,7 +1,7 @@
 <template>
   <Page class="page" backgroundSpanUnderStatusBar="true">
     <ActionBar flat="true" class="action-bar" title="">
-      <ActionItem text="Categories" ios.position="left" icon="res://selection"></ActionItem>
+      <ActionItem @tap="$router.push('/categories')" text="Categories" ios.position="left" icon="res://selection"></ActionItem>
       <ActionItem text="Settings" ios.position="right" icon="res://ic_cog"></ActionItem>
     </ActionBar>
 

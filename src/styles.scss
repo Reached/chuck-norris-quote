@@ -5,3 +5,26 @@
 
 // Global SCSS styling
 // @see https://docs.nativescript.org/ui/styling
+
+$brand-primary: #ff6d10;
+
+.page {
+  background: $brand-primary;
+}
+
+.action-bar {
+  background-color: $brand-primary;
+}
+
+.joke-box {
+  padding: 40;
+}
+
+.joke-text {
+  font-size: 18;
+  line-height: 10;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
